@@ -1,5 +1,4 @@
 * {
-
   box-sizing: border-box;
 }
 html {
@@ -80,7 +79,7 @@ main {
   font-size: 0.8rem;
   margin-left: 5px;
 }
-.monthly p:last-of-type {
+.monthly p:nth-last-of-type(2) {
   opacity: 0.9;
   padding: 8px 0;
 }
@@ -91,7 +90,7 @@ button {
   padding: 10px;
   width: 80%;
   display: block;
-  margin: 32px auto;
+  margin: 16px auto;
   box-shadow: 10px 10px 24px 2px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
@@ -99,6 +98,11 @@ button:hover {
   cursor: pointer;
   opacity: 0.8;
   transform: scale(1.02);
+}
+
+.monthly p:last-child {
+  text-align: center;
+  color: lightgreen;
 }
 
 .why-Us {
@@ -141,3 +145,4 @@ footer p a {
 footer p a:hover {
   color: green;
 }
+
