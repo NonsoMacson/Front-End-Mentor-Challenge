@@ -1,2 +1,2 @@
-# Front-End-Metntoer-Challenge
+# Front-End-Metntor-Challenge
 Implementation of frontend mentor code challenge.
