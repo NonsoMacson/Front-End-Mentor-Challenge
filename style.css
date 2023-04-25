@@ -1,4 +1,5 @@
 * {
+
   box-sizing: border-box;
 }
 html {
@@ -101,8 +102,9 @@ button:hover {
 }
 
 .monthly p:last-child {
+  display: block;
   text-align: center;
-  color: lightgreen;
+  color: #90ee90;
 }
 
 .why-Us {
@@ -145,4 +147,3 @@ footer p a {
 footer p a:hover {
   color: green;
 }
-
